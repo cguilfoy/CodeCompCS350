@@ -1,0 +1,22 @@
+stages:
+  - build
+  - test
+  - deploy
+  
+build-job:
+  tags:
+    - yellow4
+  stage: build
+  script:
+    - ./gradlew build deployReports
+    - eval $(ssh-agent -s)
+    - ssh-add <(echo "$RSYNC_KEY")
+    - rsync -auvz -e "ssh" build/reports/tests/test/ efryar@atria.cs.odu.edu:/
+    - rsync -auvz -e "ssh" build/docs/javadoc/ efryar@atria.cs.odu.edu:JavadocReport/
+    - rsync -auvz -e "ssh" build/reports/jacoco/test efryar@atria.cs.odu.edu:JaCoCoReport/
+    - rsync -auvz -e "ssh" build/reports/checkstyle/ efryar@atria.cs.odu.edu:CheckstyleReport/
+    - rsync -auvz -e "ssh" build/reports/deployReports efryar@atria.cs.odu.edu:ReportListing/
+    - ssh-agent -k
+  only:
+    - master
+     

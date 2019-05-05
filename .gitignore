@@ -1,0 +1,18 @@
+# Java Project
+build
+**.class
+/.gradle/
+/bin/
+/.settings/
+*.xlsx
+*.xls
+<<<<<<< HEAD
+/gradle.properties
+/gradle.properties~
+/.classpath
+/.project
+=======
+.project
+.classpath
+>>>>>>> branch 'master' of git@forge350.cs.odu.edu:amark/Tangerine4.git
+/TestOutput/

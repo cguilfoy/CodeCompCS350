@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="output" path="bin/default"/>
+	<classpathentry output="bin/main" kind="src" path="src/main/java">
+		<attributes>
+			<attribute name="gradle_scope" value="main"/>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry output="bin/test" kind="src" path="src/test/java">
+		<attributes>
+			<attribute name="gradle_scope" value="test"/>
+			<attribute name="gradle_used_by_scope" value="test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8/"/>
+	<classpathentry kind="lib" path="/home/cguilfoy/.gradle/caches/modules-2/files-2.1/edu.odu.cs.cs350/codeCompCommon/1.3/85bb69ce889cd173fdc1b92f16d118e826dc567/codeCompCommon-1.3.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/cguilfoy/.gradle/caches/modules-2/files-2.1/edu.odu.cs.zeil/JarNeedsHeap/1.0/52ef8772798ae027ff392f5e95219c2fd2a5ea7c/JarNeedsHeap-1.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/cguilfoy/.gradle/caches/modules-2/files-2.1/com.googlecode.concurrent-trees/concurrent-trees/2.6.0/2be9f35e29dfcdc86d30600c51c27ce1349306b9/concurrent-trees-2.6.0-sources.jar" kind="lib" path="/home/cguilfoy/.gradle/caches/modules-2/files-2.1/com.googlecode.concurrent-trees/concurrent-trees/2.6.0/3d120cafe57cd8d487e168db334487b00a7707b2/concurrent-trees-2.6.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/cguilfoy/.gradle/caches/modules-2/files-2.1/org.apache.poi/poi-ooxml/4.0.1/ca77bff4bf4d43e6ccd5eab4905a3c2f0fc608e9/poi-ooxml-4.0.1-sources.jar" kind="lib" path="/home/cguilfoy/.gradle/caches/modules-2/files-2.1/org.apache.poi/poi-ooxml/4.0.1/9ec84728bf4236b8f9ec7fef3fe1b705eef2b408/poi-ooxml-4.0.1.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/cguilfoy/.gradle/caches/modules-2/files-2.1/org.apache.poi/poi/4.0.1/47c6ff841654646f1c37639b1cd7c39b3029799c/poi-4.0.1-sources.jar" kind="lib" path="/home/cguilfoy/.gradle/caches/modules-2/files-2.1/org.apache.poi/poi/4.0.1/d8eaa341687a7dc48048d964d0d53238959ca9b5/poi-4.0.1.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/cguilfoy/.gradle/caches/modules-2/files-2.1/org.hidetake/gradle-ssh-plugin/2.7.0/ce2a723125df30cb7cfcce9d42b080476241e6ce/gradle-ssh-plugin-2.7.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/cguilfoy/.gradle/caches/modules-2/files-2.1/commons-codec/commons-codec/1.11/bce4ba84fd527950e35040b20a991c63e90e2850/commons-codec-1.11-sources.jar" kind="lib" path="/home/cguilfoy/.gradle/caches/modules-2/files-2.1/commons-codec/commons-codec/1.11/3acb4705652e16236558f0f4f2192cc33c3bd189/commons-codec-1.11.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/cguilfoy/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-collections4/4.2/e8dd003d43b1f7dba173fb7e63f5c0b823f5e5c6/commons-collections4-4.2-sources.jar" kind="lib" path="/home/cguilfoy/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-collections4/4.2/54ebea0a5b653d3c680131e73fe807bb8f78c4ed/commons-collections4-4.2.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/cguilfoy/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-math3/3.6.1/8fab23986ea8886af34818daf32a718e81dc98ba/commons-math3-3.6.1-sources.jar" kind="lib" path="/home/cguilfoy/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-math3/3.6.1/e4ba98f1d4b3c80ec46392f25e094a6a2e58fcbf/commons-math3-3.6.1.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/cguilfoy/.gradle/caches/modules-2/files-2.1/org.apache.poi/poi-ooxml-schemas/4.0.1/d2a066340008d36cb289b71f0f7b6ad562940644/poi-ooxml-schemas-4.0.1.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/cguilfoy/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-compress/1.18/a25b942b99fde2cc2913ab39ad34abc0df4f5eb9/commons-compress-1.18-sources.jar" kind="lib" path="/home/cguilfoy/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-compress/1.18/1191f9f2bc0c47a8cce69193feb1ff0a8bcb37d5/commons-compress-1.18.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/cguilfoy/.gradle/caches/modules-2/files-2.1/com.github.virtuald/curvesapi/1.05/171c75a93d6d216b57568c2a43962df3fc5b2b02/curvesapi-1.05-sources.jar" kind="lib" path="/home/cguilfoy/.gradle/caches/modules-2/files-2.1/com.github.virtuald/curvesapi/1.05/d4f227b550a0ab2b48360dd0ef64c9de93e45424/curvesapi-1.05.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/cguilfoy/.gradle/caches/modules-2/files-2.1/org.apache.xmlbeans/xmlbeans/3.0.2/46dde72abfaaeaa02fdf597c4523b2826ca443a9/xmlbeans-3.0.2-sources.jar" kind="lib" path="/home/cguilfoy/.gradle/caches/modules-2/files-2.1/org.apache.xmlbeans/xmlbeans/3.0.2/b9870982e53200b11c11800f4438620290522272/xmlbeans-3.0.2.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/cguilfoy/.gradle/caches/modules-2/files-2.1/org.hidetake/groovy-ssh/2.7.0/e5f1a3245f05b9722599db4a557ddb2628217d78/groovy-ssh-2.7.0-sources.jar" kind="lib" path="/home/cguilfoy/.gradle/caches/modules-2/files-2.1/org.hidetake/groovy-ssh/2.7.0/8ab5ff7debb45f254cd304af5f966d805154bc16/groovy-ssh-2.7.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/cguilfoy/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-api/1.7.7/acd62e31cc314266e73eebed0b6dd7ea974a0ed/slf4j-api-1.7.7-sources.jar" kind="lib" path="/home/cguilfoy/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-api/1.7.7/2b8019b6249bb05d81d3a3094e468753e2b21311/slf4j-api-1.7.7.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/cguilfoy/.gradle/caches/modules-2/files-2.1/com.jcraft/jsch.agentproxy.jsch/0.0.7/2e1531c9da987211703797e0236e9b374321ab8f/jsch.agentproxy.jsch-0.0.7-sources.jar" kind="lib" path="/home/cguilfoy/.gradle/caches/modules-2/files-2.1/com.jcraft/jsch.agentproxy.jsch/0.0.7/ff3a71caf45efeb00980f93f0c39a9750640e8d8/jsch.agentproxy.jsch-0.0.7.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/cguilfoy/.gradle/caches/modules-2/files-2.1/com.jcraft/jsch/0.1.53/791359d94d6edcace686a56d0727ee093a2f7c33/jsch-0.1.53-sources.jar" kind="lib" path="/home/cguilfoy/.gradle/caches/modules-2/files-2.1/com.jcraft/jsch/0.1.53/658b682d5c817b27ae795637dfec047c63d29935/jsch-0.1.53.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/cguilfoy/.gradle/caches/modules-2/files-2.1/com.jcraft/jsch.agentproxy.connector-factory/0.0.7/88ad6b451496a46a277f56efff1858e1ef8c7eb5/jsch.agentproxy.connector-factory-0.0.7-sources.jar" kind="lib" path="/home/cguilfoy/.gradle/caches/modules-2/files-2.1/com.jcraft/jsch.agentproxy.connector-factory/0.0.7/780e0312287dd4e4f3601d401a073a081e403f2d/jsch.agentproxy.connector-factory-0.0.7.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/cguilfoy/.gradle/caches/modules-2/files-2.1/com.jcraft/jsch.agentproxy.usocket-jna/0.0.7/affe9e19df0572622d581eb099b948bc110ac3a2/jsch.agentproxy.usocket-jna-0.0.7-sources.jar" kind="lib" path="/home/cguilfoy/.gradle/caches/modules-2/files-2.1/com.jcraft/jsch.agentproxy.usocket-jna/0.0.7/98cf51ca8d7882c203729ffa48e9b7be4c50b835/jsch.agentproxy.usocket-jna-0.0.7.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/cguilfoy/.gradle/caches/modules-2/files-2.1/com.jcraft/jsch.agentproxy.usocket-nc/0.0.7/c0a7d2dcae5a4a51dcae332f5116fbf86bdf81e4/jsch.agentproxy.usocket-nc-0.0.7-sources.jar" kind="lib" path="/home/cguilfoy/.gradle/caches/modules-2/files-2.1/com.jcraft/jsch.agentproxy.usocket-nc/0.0.7/aff6f0f3a68f9731580d7c48075fdf177532dfe6/jsch.agentproxy.usocket-nc-0.0.7.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/cguilfoy/.gradle/caches/modules-2/files-2.1/com.jcraft/jsch.agentproxy.sshagent/0.0.7/fa4b76688b6757d62196c0c227e8426db90a55fe/jsch.agentproxy.sshagent-0.0.7-sources.jar" kind="lib" path="/home/cguilfoy/.gradle/caches/modules-2/files-2.1/com.jcraft/jsch.agentproxy.sshagent/0.0.7/5c09a3d2a0562de53cf616794f43f51a3c0a496c/jsch.agentproxy.sshagent-0.0.7.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/cguilfoy/.gradle/caches/modules-2/files-2.1/com.jcraft/jsch.agentproxy.pageant/0.0.7/47d1bf5c6657bba42d49951ad8d394854526bcfd/jsch.agentproxy.pageant-0.0.7-sources.jar" kind="lib" path="/home/cguilfoy/.gradle/caches/modules-2/files-2.1/com.jcraft/jsch.agentproxy.pageant/0.0.7/b40c0d9b10d79a0683ca93e3f70360b3d8045b62/jsch.agentproxy.pageant-0.0.7.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/cguilfoy/.gradle/caches/modules-2/files-2.1/com.jcraft/jsch.agentproxy.core/0.0.7/1e7de81afd838051022c24185751d5a96b75f1a8/jsch.agentproxy.core-0.0.7-sources.jar" kind="lib" path="/home/cguilfoy/.gradle/caches/modules-2/files-2.1/com.jcraft/jsch.agentproxy.core/0.0.7/9bcf818dc9e5247b01b1b18671a12caac293ae40/jsch.agentproxy.core-0.0.7.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/cguilfoy/.gradle/caches/modules-2/files-2.1/net.java.dev.jna/jna/3.4.0/2f42653596d0044f0ab456620cba54c9cf53c5ca/jna-3.4.0-sources.jar" kind="lib" path="/home/cguilfoy/.gradle/caches/modules-2/files-2.1/net.java.dev.jna/jna/3.4.0/803ff252fedbd395baffd43b37341dc4a150a554/jna-3.4.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/cguilfoy/.gradle/caches/modules-2/files-2.1/net.java.dev.jna/platform/3.4.0/2f42653596d0044f0ab456620cba54c9cf53c5ca/platform-3.4.0-sources.jar" kind="lib" path="/home/cguilfoy/.gradle/caches/modules-2/files-2.1/net.java.dev.jna/platform/3.4.0/e3f70017be8100d3d6923f50b3d2ee17714e9c13/platform-3.4.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/cguilfoy/.gradle/caches/modules-2/files-2.1/junit/junit/4.11/28e0ad201304e4a4abf999ca0570b7cffc352c3c/junit-4.11-sources.jar" kind="lib" path="/home/cguilfoy/.gradle/caches/modules-2/files-2.1/junit/junit/4.11/4e031bb61df09069aeb2bffb4019e7a5034a4ee0/junit-4.11.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/cguilfoy/.gradle/caches/modules-2/files-2.1/org.hamcrest/hamcrest-core/1.3/1dc37250fbc78e23a65a67fbbaf71d2e9cbc3c0b/hamcrest-core-1.3-sources.jar" kind="lib" path="/home/cguilfoy/.gradle/caches/modules-2/files-2.1/org.hamcrest/hamcrest-core/1.3/42a25dc3219429f0e5d060061f71acb49bf010a0/hamcrest-core-1.3.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+		</attributes>
+	</classpathentry>
+</classpath>
